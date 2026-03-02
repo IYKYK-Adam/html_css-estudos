@@ -1,0 +1,101 @@
+[LOGO DE SU]
+Um desenho sobre amor
+
+home
+gempédia
+misterios
+creditos
+
+SINOPSE
+Em Steven Universe, o mundo é protegido das ameaças do mal pelas Crystal Gems, um grupo de Gems que jurou proteger a Terra de Homeworld. Seus poderes vem de suas pedras (joias mágicas embutidas em algum lugar do corpo do hospedeiro). As quatro Crystal Gems principais são Garnet, Ametista, Perola e Steven. Várias Gems, como Peridote, Lapis Lazuli, Bismuto e uma humana, Connie Maheswaran, também se juntaram à equipe. Steven é um jovem meio humano e meio Gem que herdou sua pedra de sua mãe, a fundadora e ex-líder das Crystal Gem, chamada Rose Quartz, que desistiu de sua forma para criar Steven. Enquanto Steven tenta descobrir os segredos para usar sua Gem, ele passa seus dias em Beach City fazendo atividades com as outras Crystal Gems, seja ajudando-as a salvar o universo ou apenas passeando.
+
+[TRAILER DA SERIE]
+
+CRYSTAL GENS
+[IMAGEM] - Garnet: líder calma e poderosa das Crystal Gems, é a fusão de Ruby e Sapphire, representando amor e estabilidade.
+
+[IMAGEM] - Pérola: Elegante e leal, Pérola é estrategista e guerreira habilidosa, tendo servido Rose Quartz com devoção.
+
+[IMAGEM] - Ametista: Espontânea e brincalhona, Ametista é a mais rebelde das Gems, mas profundamente leal à sua família.
+
+[IMAGEM] - Steven Universo: O protagonista, um garoto meio-humano, meio-Gem que aprende a usar seus poderes herdados de sua mãe, Rose Quartz.
+
+[IMAGEM] - Connie Maheswaran: Melhor amiga e parceira de Steven, destemida e dedicada a aprender a lutar.
+
+[IMAGEM] - Peridote: Uma ex-Gem do Planeta Natal, Peridote é altamente lógica, mas aprende a se conectar com os outros e valorizar a Terra.
+
+[IMAGEM] - Lápis Lazuli: Uma Gem poderosa com habilidades de manipulação da água, passou por muito sofrimento antes de encontrar paz.
+
+[IMAGEM] - Bismuto: Uma talentosa ferreira das Crystal Gems, forja armas poderosas e tem um forte senso de justiça.
+
+
+
+HUMANOS
+[IMAGEM] - Connie Maheswaran: Melhor amiga e parceira de Steven, destemida e dedicada a aprender a lutar.
+
+[IMAGEM] - Greg Universo: Pai de Steven, um ex-músico de rock e dono de um lava-rápido, sempre amoroso e descontraído.
+
+[IMAGEM] - Lars: Inicialmente arrogante, Lars passa por grande crescimento, tornando-se um líder corajoso no espaço.
+
+[IMAGEM] - Sadie: Funcionária do Big Rosquinha e amiga próxima de Steven, adora cantar e se descobrir além do trabalho, futuramente se tornando uma grande astro do rock.
+
+
+TEMPORADAS, FILME, EPÍLOGO E DISCOS (uma análise e visão pessoal de cada um)
+[IMAGEM] 1° Temporada - [IMAGEM] 2° Temporada - [IMAGEM] 3° Temporada - [IMAGEM] 4° Temporada 
+[IMAGEM] 5° Temporada - [IMAGEM] Steven Universo: O Filme - [IMAGEM] Steven Universo: Futuro - [IMAGEM] Soundtrack
+
+lorem
+
+Site criado por Victor Adam - mais detalher na aba créditos.
+
+
+
+
+
+
+.container {
+    display: grid; /* Ativa o sistema de grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Cria duas colunas de largura igual */
+    gap: 20px; /* Define um espaçamento de 20px entre os itens da grade */
+    max-width: 900px; /* Limita a largura máxima do conteúdo */
+    margin: 0 auto; /* Centraliza o container na tela */
+}
+Usa display: grid para organizar os elementos em uma grade.
+grid-template-columns: repeat(2, 1fr); cria duas colunas de largura igual.
+gap: 20px; adiciona um espaçamento entre os elementos da grade.
+max-width: 900px; impede que o conteúdo fique muito largo em telas grandes.
+margin: 0 auto; centraliza o container horizontalmente.
+
+
+.gem {
+    display: flex; /* Usa o modelo flexbox para alinhar a imagem e o texto lado a lado */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    background: white; /* Define o fundo branco para cada item */
+    padding: 10px; /* Adiciona um espaçamento interno */
+    border-radius: 10px; /* Deixa as bordas arredondadas */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra */
+}
+display: flex; alinha a imagem e o texto lado a lado.
+align-items: center; centraliza os itens verticalmente.
+background: white; define um fundo branco para os blocos.
+padding: 10px; adiciona um espaço interno ao redor do conteúdo.
+border-radius: 10px; arredonda as bordas para um visual mais suave.
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); adiciona uma leve sombra para destacar os blocos.
+
+
+.gem img {
+    width: 50px; /* Define a largura da imagem */
+    height: 50px; /* Define a altura da imagem */
+    margin-right: 15px; /* Adiciona um espaçamento entre a imagem e o texto */
+    border-radius: 50%; /* Deixa a imagem circular */
+}
+width: 50px; e height: 50px; garantem que todas as imagens tenham o mesmo tamanho.
+margin-right: 15px; adiciona espaço entre a imagem e o texto.
+border-radius: 50%; faz a imagem ficar circular.
+
+
+
+
+
+
+
