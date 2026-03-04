@@ -1,3 +1,3 @@
 # html css - estudos
 websites feitos com os conhecimentos adquiridos no curso de HTML5 e CSS3 do "Curso em Vídeo"
-!!IMPORTANTE!! o "projeto 001 site SU" NÃO ESTÁ RESPONSIVO AINDA, apenas disponível para visualização no PC/Notebooke, ou similar.
+!!IMPORTANTE!! o "projeto 001 site SU" NÃO ESTÁ FINALIZADO, estarei atualizando de acordo com o que estou aprendendo no curso.
