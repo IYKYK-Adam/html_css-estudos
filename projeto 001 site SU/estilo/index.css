@@ -178,7 +178,7 @@ div.video > iframe {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
   .colar {
     flex-wrap: wrap; /* permite quebrar linha */
   }
