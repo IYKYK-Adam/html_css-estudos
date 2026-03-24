@@ -18,9 +18,14 @@
   --fonte-destaque: "SU", serif;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
 body {
@@ -38,6 +43,11 @@ header {
   min-height: 150px;
   text-align: center;
   padding-top: 30px;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
 }
 
 nav {
@@ -128,7 +138,7 @@ main img.pequena {
 
 .colunas {
   display: grid; /* grid para organizar os elementos em uma grade */
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   max-width: 900px; /* Limita a largura máxima do conteúdo */
   margin: 0 auto;
@@ -150,28 +160,26 @@ main img.pequena {
 
 div.video {
   background-color: var(--cor5);
-  margin: 0px -20px 30px -20px;
-  padding: 0px;
-
-  padding-bottom: 54%;
+  margin: 0 -20px 30px -20px;
   position: relative;
+  padding-bottom: 56.25%; /* proporção 16:9 */
+  height: 0;
+  overflow: hidden;
 }
 
 div.video > iframe {
   position: absolute;
-  top: 0%;
-  left: 2%;
-  width: 90%;
-  height: 90%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 
-  border: 20px solid black;
-  padding: 0px;
+  border: 20px solid transparent;
   border-image: url("borda.png") 27 repeat;
-  margin-top: 5px;
-  margin-left: 9px;
+  box-sizing: border-box;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 400px) {
   div.video > iframe {
     width: 85%;
     height: 80%;
@@ -208,8 +216,9 @@ aside > h1 {
 }
 
 aside img {
-  width: 170px;
-  height: 170px;
+  width: 100%;
+  max-width: 170px;
+  height: auto;
 }
 
 .colar {
