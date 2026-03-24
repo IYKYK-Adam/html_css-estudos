@@ -179,12 +179,7 @@ div.video > iframe {
   box-sizing: border-box;
 }
 
-@media (max-width: 499px) {
-  div.video > iframe {
-    width: 85%;
-    height: 80%;
-  }
-
+@media (max-width: 500px) {
   nav {
     text-align: center;
   }
